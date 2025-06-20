@@ -159,6 +159,14 @@ header .container {
     color: var(--warning-color);
 }
 
+.logo img{
+    width: 80px;
+    height: 50px;
+    position:absolute;
+    top:5px;
+    left: 0;
+}
+
 .menu {
     display: flex;
 }
