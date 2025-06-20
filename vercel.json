@@ -22,16 +22,16 @@
       "src": "/(.*)",
       "dest": "/public/index.html"
     },{
-      "src": "/(tentang)",
+      "src": "/tentang",
       "dest": "/public/tentang.html"
     },{
-      "src": "/(galeri)",
+      "src": "/galeri",
       "dest": "/public/galeri.html"
     },{
-      "src": "/(kontak)",
+      "src": "/kontak",
       "dest": "/public/kontak.html"
     },{
-      "src": "/(produk)",
+      "src": "/produk",
       "dest": "/public/produk.html"
     }
   ]
