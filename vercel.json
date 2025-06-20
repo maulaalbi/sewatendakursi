@@ -1,38 +1,38 @@
 {
   "builds": [
     {
-      "src": "public/index.html",
+      "src": "index.html",
       "use": "@vercel/static"
     },  {
-      "src": "public/galeri.html",
+      "src": "galeri.html",
       "use": "@vercel/static"
     },  {
-      "src": "public/kontak.html",
+      "src": "kontak.html",
       "use": "@vercel/static"
     },  {
-      "src": "public/produk.html",
+      "src": "produk.html",
       "use": "@vercel/static"
     },  {
-      "src": "public/tentang.html",
+      "src": "tentang.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/public/index.html"
+      "dest": "index.html"
     },{
       "src": "/tentang",
-      "dest": "/public/tentang.html"
+      "dest": "tentang.html"
     },{
       "src": "/galeri",
-      "dest": "/public/galeri.html"
+      "dest": "galeri.html"
     },{
       "src": "/kontak",
-      "dest": "/public/kontak.html"
+      "dest": "kontak.html"
     },{
       "src": "/produk",
-      "dest": "/public/produk.html"
+      "dest": "produk.html"
     }
   ]
 }
