@@ -214,7 +214,7 @@ header .container {
 /* Hero Section */
 .hero {
     height: 80vh;
-    background: url('https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    background: url('../img/background.jpg') no-repeat center center/cover;
     position: relative;
     color: var(--white-color);
     display: flex;
