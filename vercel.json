@@ -1,4 +1,22 @@
 {
+    "builds": [
+    {
+      "src": "dist/index.html",
+      "use": "@vercel/static"
+    },{
+      "src": "dist/galeri.html",
+      "use": "@vercel/static"
+    },{
+      "src": "dist/kontak.html",
+      "use": "@vercel/static"
+    },{
+      "src": "dist/produk.html",
+      "use": "@vercel/static"
+    },{
+      "src": "dist/tentang.html",
+      "use": "@vercel/static"
+    }
+  ],
     "routes": [
     {
       "src": "/beranda.html",
