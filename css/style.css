@@ -933,7 +933,7 @@ button[type="submit"] {
 
 .about-image img {
     width: fit-content;
-    height: 1020px;
+    height: 100%;
 }
 
 .about-content h2 {
