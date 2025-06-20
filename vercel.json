@@ -1,0 +1,20 @@
+{
+    "routes": [
+    {
+      "src": "/beranda.html",
+      "dest": "/dist/index.html"
+    },{
+      "src": "/galeri.html",
+      "dest": "/dist/galeri.html"
+    },{
+      "src": "/kontak.html",
+      "dest": "/dist/kontak.html"
+    },{
+      "src": "/produk.html",
+      "dest": "/dist/produk.html"
+    },{
+      "src": "/tentang.html",
+      "dest": "/dist/tentang.html"
+    }
+  ]
+}
